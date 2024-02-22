@@ -1,0 +1,8 @@
+.hero{
+  background-image: linear-gradient(to right top, #213a61, #004d7a, #008793, #27ad78, #12ebce);
+}
+
+p{
+ font-size: 100px;
+ font-weight: 700;
+}

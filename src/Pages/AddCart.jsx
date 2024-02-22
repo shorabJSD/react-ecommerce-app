@@ -1,9 +1,8 @@
 import React from 'react'
 
-export default function Kids() {
+export default function AddCart() {
   return (
     <div>
-      <h1>For kids</h1>
     </div>
   )
 }
