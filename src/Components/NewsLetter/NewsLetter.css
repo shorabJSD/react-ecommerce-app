@@ -1,0 +1,45 @@
+.container .news_letter {
+    background: #a11d3b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #a11d3b,
+      #884d575d
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #a11d3b,
+      #884d575d
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 70vh;
+  }
+.news_letter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.subForNews{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.news_letter .subForNews .form-control{
+    box-shadow: none;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
-export default function Kids() {
+
+export default function ShopCategory() {
+  
   return (
-    <div>
-      <h1>alll for men women and kids</h1>
-    </div>
+    <>
+      <div className="shop_catagorey">
+      </div>
+    </>
   )
 }

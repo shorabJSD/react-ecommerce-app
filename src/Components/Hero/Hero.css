@@ -1,8 +1,23 @@
-.hero{
-  background-image: linear-gradient(to right top, #213a61, #004d7a, #008793, #27ad78, #12ebce);
+.hero {
+  background: #ffafbd; /* fallback for old browsers */
+  background: #a11d3b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a11d3b,
+    #884d575d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a11d3b,
+    #884d575d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 70vh;
 }
-
-p{
+.heroFontSize{
  font-size: 100px;
  font-weight: 700;
+}
+.marginPadding{
+  margin: 0;
+  padding: 0;
 }
