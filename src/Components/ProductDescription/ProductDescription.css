@@ -1,0 +1,8 @@
+.productDescription .description_title{
+    display: flex;
+    align-items: center;
+}
+.productDescription .description_title div{
+    width: 100px;
+    padding: 10px;
+}

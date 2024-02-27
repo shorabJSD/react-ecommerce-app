@@ -1,0 +1,87 @@
+.product{
+ background: linear-gradient(
+        to right,
+        #a11d3b,
+        #884d575d
+      );
+      width: 100%;
+}
+
+.product .displayProduct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product .displayProduct .displayProduct_left{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.product .displayProduct .displayProduct_left .side_img{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: 30px;
+    gap: 10px;
+    margin-right: 30px;
+}
+.product .displayProduct .displayProduct_left .side_img img{
+    height: 150px;
+}
+.product .displayProduct .displayProduct_left .main_img img{
+    height: 466px;
+}
+
+/* product details-right styling */
+.product .displayProduct .displayProduct_right{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 20px;
+}
+.product .displayProduct .displayProduct_right .product_price{
+   margin: 10px 0;
+   display: flex;
+   background-color: #000;
+   color: #fff;
+   width: 150px;
+   padding: 10px 20px;
+   text-align: center;
+   align-items: center;
+   justify-content: space-between;
+   border-radius: 8px;
+}
+.product .displayProduct .displayProduct_right .product_price .product_old_price{
+  text-decoration: line-through;
+  margin-right: 10px;
+}
+.product .displayProduct .displayProduct_right .product_description p{
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.product .displayProduct .displayProduct_right .product_size .size{
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
+.product .displayProduct .displayProduct_right .product_size .size div{
+    padding: 10px 20px;
+    background-color: #c9c9c9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product .displayProduct .displayProduct_right button{
+    padding: 10px 25px;
+    border: none;
+    background: #ff002b;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+

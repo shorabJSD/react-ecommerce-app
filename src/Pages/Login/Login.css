@@ -1,0 +1,49 @@
+.input_field .input_title{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.input_field hr{
+    width: 175px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.input_field{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( to right, #a11d3b, #884d575d );
+}
+
+.input_field .dis_flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input_field .form{
+    width: 600px;
+    background-color: rgba(15, 15, 15, 0.514);
+    padding: 25px;
+    border-radius: 8px;
+}
+.input_field .form form input{
+   border: none;
+   outline: none;
+   box-shadow: none; 
+}
+
+.input_field .login_btn{
+  align-items: center;
+
+}
+.input_field .login_btn button{
+   background: none;
+   padding: 5px 20px;
+   margin-left: 10px;
+   color: #fff;
+   text-transform: capitalize;
+   font-weight: 600;
+   margin-bottom: 10px;
+}

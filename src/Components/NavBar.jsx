@@ -51,10 +51,12 @@ const [menu, setMenu] = useState('shop')
               </li>
             </ul>
             <form className="d-flex" role="search" style={{alignItems:"center"}}>
-              <button  className="btn mx-2 btn-light" type="Login" style={{backgroundColor:"#EEEEEE",padding:"5px 20px", marginTop:"6px"}}>
-                Loing
+              <Link to='/login'>
+              <button className="btn mx-2 btn-light" type="Login" style={{backgroundColor:"#EEEEEE",padding:"5px 20px", marginTop:"6px"}}>
+                {props.login}
               </button>
-              <Link>
+              </Link>
+              <Link to="/cart">
                 <img src={cart_icon} alt="" style={{height:"25px"}} />
                 <span className="position-absolute  translate-middle badge rounded-pill bg-danger">0</span>
               </Link>

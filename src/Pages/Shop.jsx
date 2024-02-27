@@ -5,9 +5,6 @@ import Offer from '../Components/Offers/Offer'
 import NewCollections from '../Components/NewCollections/NewCollections'
 import NewsLetter from '../Components/NewsLetter/NewsLetter'
 
-
-
-
 export default function Shop() {
   return (
     <div>
@@ -16,7 +13,6 @@ export default function Shop() {
        <Offer/>
        <NewCollections/>
        <NewsLetter/>
-      
     </div>
   )
 }

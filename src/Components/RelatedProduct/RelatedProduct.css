@@ -1,0 +1,9 @@
+.relatedProduct{
+    width: 100%;
+    padding: 50px 0;
+    background: linear-gradient(
+        to right,
+        #a11d3b,
+        #884d575d
+      )
+}
