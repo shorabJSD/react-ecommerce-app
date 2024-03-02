@@ -1,6 +1,6 @@
 import React from "react"
 import cart_icon from './assets/cart_icon.png'
-import logo from './assets/logo.png'
+import logo from './assets/al-Zahra.jpg'
 import {Link} from "react-router-dom"
 import './Navbar.css'
 import { useState } from "react"
@@ -10,11 +10,11 @@ export default function NavBar(props) {
 const [menu, setMenu] = useState('shop')
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary px-5">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary px-5 fixed-top">
         <div className="container-fluid">
           <Link className=" d-flex" to="#" style={{alignItems:"center", justifyContent:"center", textDecoration:"none"}}>
             <img src={logo} alt="Logo" style={{height:"55px", marginRight:"10px"}} />
-            <p style={{marginTop:"5px", marginBottom:"0", color:"#000", fontWeight:"bold"}}>SHOPPER</p>
+            <p style={{marginTop:"5px", marginBottom:"0", color:"#000", fontWeight:"bold"}}>Al Zahra</p>
           </Link>
           <button
             className="navbar-toggler"
@@ -31,23 +31,24 @@ const [menu, setMenu] = useState('shop')
             <ul className="navbar-nav me-auto mb-2 mb-lg-0" style={{width:"100%", display:"flex",justifyContent:"center", fontSize:"18px",textTransform:"capitalize", alignItems:"center"}}>
               <li onClick={()=>{setMenu('Shop')}} className="nav-item">
                 <Link  className="nav-link active" aria-current="page" to="/">
-                  {props.shop} 
+                  {props.home} 
                 </Link>{menu==='Shop'?<hr/>:<></>}
+              </li>
+
+              <li onClick={()=>{setMenu('Kids')}} className="nav-item">
+                <Link  className="nav-link" to="/kid">
+                  {props.nikha}
+                </Link>{menu==='Kids'?<hr/>:<></>}
               </li>
               <li onClick={()=>{setMenu('Men')}} className="nav-item">
                 <Link  className="nav-link" to="/men">
-                  {props.men}
+                  {props.kidsFrame}
                 </Link>{menu==='Men'?<hr/>:<></>}
               </li>
               <li onClick={()=>{setMenu('Women')}} className="nav-item">
                 <Link  className="nav-link" to="/women">
-                  {props.women}
+                  {props.homeDecor}
                 </Link>{menu==='Women'?<hr/>:<></>}
-              </li>
-              <li onClick={()=>{setMenu('Kids')}} className="nav-item">
-                <Link  className="nav-link" to="/kid">
-                  {props.kid}
-                </Link>{menu==='Kids'?<hr/>:<></>}
               </li>
             </ul>
             <form className="d-flex" role="search" style={{alignItems:"center"}}>

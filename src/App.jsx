@@ -17,7 +17,7 @@ export default function App() {
     <div>
       <ShopContextProvider>
         <BrowserRouter>
-          <Navbar shop="shop" men="men" women="women" kid="kids" login="Login"/>
+          <Navbar home="Home" nikha="Nikah Frame" kidsFrame="Kids Frame"  homeDecor="Home Decor" login="Login"/>
           <Routes>
             <Route  path="/" element={<Shop/>} />
             <Route  path="/men" element={<ShopCategory banner={mens_banner} category="men" />} />
